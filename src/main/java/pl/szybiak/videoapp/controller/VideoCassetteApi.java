@@ -28,7 +28,7 @@ private VideoACassetteService videoCassettes;
         return videoCassettes.save(videoCassette);
     }
     @PutMapping
-    public VideoCassette updateVideo(@RequestParam VideoCassette videoCassette){
+    public VideoCassette updateVideo(@RequestBody VideoCassette videoCassette){
         return videoCassettes.save(videoCassette);
     }
     @DeleteMapping
