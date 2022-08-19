@@ -1,7 +1,8 @@
-package pl.szybiak.videoapp;
+package pl.szybiak.videoapp.controller;
 
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
+import pl.szybiak.videoapp.model.VideoCassette;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
